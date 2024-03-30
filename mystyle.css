@@ -1,0 +1,183 @@
+
+
+/*index.html
+--------------------------------------------------------------------*/
+.index h1 {
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		color: green;
+		text-align: center;
+}
+
+.gamlet1 p {
+	background-color: #222222;
+	font-size: 20px;
+}
+
+.gamlet1 .english {
+	font-weight: bold;
+	font-style : italic;
+	color: #00bfff;
+	line-height: 150%;
+
+}
+
+.gamlet1 .ukraine {
+	font-style: italic;
+	font-weight: 200;
+	color: #ffc0cb;
+	line-height: 150%;
+}
+
+.gamlet3 p {
+	color: black;
+}
+
+.gamlet3 b {
+	color: red;
+	font-size: 18px;
+}
+
+.gamlet3 i {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #800080;
+}
+
+.imagegamlet {
+	float: left;
+	margin-left: 350px;
+	top: 645px;
+	position: absolute;
+}
+
+.olclass {
+	list-style-type: lower-roman;
+	padding: 50px;
+	border: 2px dashed darkgreen;
+}
+
+.olclass ul {
+	list-style-type: square;
+}
+
+.s {
+  list-style-image: url('image/s.png');
+}
+
+/*--------------------------------------------------------------------*/
+
+
+
+
+/*forms.html
+----------------------------------------------------------------------*/
+.forms {
+	background-color: orange;
+}
+
+.forms fieldset {
+	border: 6px double black;
+	border-radius: 5px;
+}
+
+.forms legend {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.forms input {
+	border: 2px solid green;
+	padding: 10px;
+	font-family: 'Arial', monospace;
+}
+
+.forms input[type="text"] {
+	color: red;
+}
+
+.forms label {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.forms button {
+	width: 120px;
+	height: 40px;
+	font-size: 14px;
+	border-radius: 10px;
+	border-style: none;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+
+
+/*blocks.html
+----------------------------------------------------------------------*/
+.blocks body{
+	margin: 0;
+  padding: 0;
+}
+
+.blocks header {
+	background-color: lightcoral;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	opacity: 50%;
+}
+
+.blocks nav {
+	background-color: lightblue;
+  padding: 5px;
+}
+
+.blocks main {
+  background-color: lightgreen;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.blocks article {
+	flex: 1;
+  background-color: skyblue;
+  padding: 20px;
+ 	margin-top: 30px;
+}
+
+.blocks section {
+	background-color: darkorange;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  height: 100px;
+}
+
+.blocks aside {
+	width: 200px;
+  background-color: lightyellow;
+  padding: 20px;
+}
+
+.blocks footer {
+	background-color: lightblue;
+  padding: 10px;
+  opacity: 50%;
+}
+
+.blocks .main1 {
+	display: flex;
+	margin-block: auto;
+}
+
+.blocks .main1 aside{
+	border: 1px solid #000000;
+  margin-left: 10px;
+  display: flex;
+  background-color: #ffc0cb;
+  opacity: 50%;
+}
+
